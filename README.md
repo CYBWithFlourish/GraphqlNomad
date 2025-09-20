@@ -47,12 +47,16 @@ You can install GraphQLNomad from multiple sources.
 This is the easiest and fastest way to get started.
 
 ```bash
-pip install graphqlnomad
+pip install pipx
+```
+
+```bash
+pipx install graphqlnomad
 ```
 
 #### From NPM
 For users in the JavaScript ecosystem, an npm wrapper is available.
-*(Note: Python and pip are still required.)*
+*(Note: Python and pipx are still required.)*
 
 ```bash
 npm install -g graphqlnomad
@@ -117,7 +121,7 @@ Execution Options:
 #### 1. Basic Reconnaissance on a Domain
 Scan a target URL, find the endpoint, and start an interactive session.
 ```bash
-graphqlnomad https://rickandmortyapi.com/
+graphqlnomad https://rickandmortyapi.com/graphql
 ```
 
 #### 2. Non-Interactive Scan with Output
