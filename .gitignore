@@ -1,0 +1,71 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+
+# --- Distribution / Packaging ---
+
+# Build artifacts from setuptools
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+sdist/
+downloads/
+
+
+# --- Testing and Coverage ---
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+pytest-report.html
+
+# Mypy cache
+.mypy_cache/
+
+
+# --- IDE / Editor Configuration ---
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# --- OS-specific Files ---
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# --- Other ---
+
+# Log files
+*.log
+
+# Environment variables - NEVER commit secret keys or credentials!
+.env
+.env.*
+*.env
