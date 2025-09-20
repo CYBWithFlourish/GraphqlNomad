@@ -1,0 +1,19 @@
+Git stuff
+
+.git/
+.gitignore
+
+
+Python stuff
+
+.venv/
+pycache/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+
+Node stuff
+
+node_modules/
