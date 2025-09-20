@@ -7,6 +7,7 @@ setup(
     name="graphqlnomad",
     version="1.0.0",
     author="CYBWithFlourish",
+    license="Apache-2.0"
     author_email="project.samclak@gmail.com",
     description="An integrated tool to detect, fingerprint, and explore GraphQL endpoints.",
     long_description=long_description,
@@ -19,7 +20,7 @@ setup(
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache 2.0 License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Environment :: Console",
         "Topic :: Security",
