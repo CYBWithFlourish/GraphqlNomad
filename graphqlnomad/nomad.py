@@ -41,7 +41,7 @@ BANNER = r"""
 \    \_\  \  | \// __ \|  |_> >   Y  \/    \_/.  \    |___/   |     (  <_> )  Y Y  \/ __ \_/ /_/ | 
  \______  /__|  (____  /   __/|___|  /\_____\ \_/_______  \____|__  /\____/|__|_|  (____  /\____ | 
         \/           \/|__|        \/        \__>       \/       \/             \/     \/      \/ 
-                          v0.0.0 - @CYBWithFlourish | https://x.com/0xCYBFlourish
+                          v1.0.0 - @CYBWithFlourish | https://x.com/0xCYBFlourish
 """
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------
 INTROSPECTION_QUERIES = [
@@ -377,12 +377,12 @@ class CustomHelpFormatter(argparse.RawTextHelpFormatter):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="GraphQLNomad v0.0.0: An integrated tool to detect, fingerprint, and explore GraphQL endpoints.",
+        description="GraphQLNomad v1.0.0: An integrated tool to detect, fingerprint, and explore GraphQL endpoints.",
         formatter_class=CustomHelpFormatter,
         epilog="""Examples:\n  # Detect, fingerprint, and start interactive session on a base URL\n  python graphqlnomad.py https://rickandmortyapi.com/\n\n  # Provide a specific endpoint and skip detection\n  python graphqlnomad.py https://rickandmortyapi.com/graphql --no-detect\n\n  # Run non-interactively, saving fingerprint result to a file\n  python graphqlnomad.py https://api.example.com/ -o results.csv --non-interactive\n\n  # Use a proxy and custom headers\n  python graphqlnomad.py https://api.example.com/ --proxy http://127.0.0.1:8080 -H "Authorization: Bearer <token>" """
     )
     parser.add_argument("url", help="The target base URL or specific GraphQL endpoint URL.")
-    parser.add_argument("-v", "--version", action="version", version="GraphQLNomad v0.0.0")
+    parser.add_argument("-v", "--version", action="version", version="GraphQLNomad v1.0.0")
 
     recon_group = parser.add_argument_group('Reconnaissance Options')
     recon_group.add_argument("--detect", action="store_true", default=True, help=argparse.SUPPRESS)
@@ -413,7 +413,7 @@ def main():
         dummy_nomad._print_table("Fingerprintable Engines", rows, ["Name", "Technology", "Homepage"])
         sys.exit(0)
 
-    headers = {'User-Agent': 'GraphQLNomad/0.0.0'}
+    headers = {'User-Agent': 'GraphQLNomad/1.0.0'}
     if args.header:
         for h in args.header:
             try:
