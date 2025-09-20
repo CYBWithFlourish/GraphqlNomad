@@ -66,7 +66,7 @@ npm install -g graphqlnomad
 To get the latest development version, you can install directly from this repository.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/GraphQLNomad.git
+git clone https://github.com/CYBWithFlourish/GraphQLNomad.git
 cd GraphQLNomad
 pip install .```
 
