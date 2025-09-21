@@ -37,7 +37,7 @@
 
 ## 🎬 Demo
 
-COMMING SOON!!
+[![asciicast](https://asciinema.org/a/P8PtBGYs64JgghVvkxVC1dRs9.svg)](https://asciinema.org/a/P8PtBGYs64JgghVvkxVC1dRs9)
 
 ## 🛠️ Installation
 
@@ -68,7 +68,8 @@ To get the latest development version, you can install directly from this reposi
 ```bash
 git clone https://github.com/CYBWithFlourish/GraphQLNomad.git
 cd GraphQLNomad
-pip install .```
+pip install .
+```
 
 ## 🚀 Usage
 
