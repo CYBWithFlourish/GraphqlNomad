@@ -26,7 +26,7 @@
 
 **GraphQLNomad** is a powerful command-line tool designed for security researchers, bug bounty hunters, and developers to streamline the process of testing GraphQL endpoints. It automates reconnaissance and provides a feature-rich interactive shell to explore schemas and craft custom queries.
 
-## ✨ Key Features
+## Key Features
 
 *   **Endpoint Detection**: Automatically discovers GraphQL endpoints using a built-in and customizable wordlist.
 *   **Engine Fingerprinting**: Identifies the underlying GraphQL engine (e.g., Apollo, Hot Chocolate, Hasura) based on its behavior.
@@ -35,11 +35,11 @@
 *   **Non-Interactive Mode**: Run scans and output results to a CSV file for automation and scripting.
 *   **Connection Options**: Full support for custom headers, HTTP/S proxies, and request timeouts.
 
-## 🎬 Demo
+## Demo
 
 [![asciicast](https://asciinema.org/a/P8PtBGYs64JgghVvkxVC1dRs9.svg)](https://asciinema.org/a/P8PtBGYs64JgghVvkxVC1dRs9)
 
-## 🛠️ Installation
+## Installation
 
 You can install GraphQLNomad from multiple sources.
 
@@ -71,7 +71,7 @@ cd GraphQLNomad
 pip install .
 ```
 
-## 🚀 Usage
+## Usage
 
 GraphQLNomad is simple to run. At its most basic, just provide a base URL to scan.
 
@@ -117,7 +117,7 @@ Execution Options:
                         Output reconnaissance results to a CSV file.
 ```
 
-## 💡 Examples
+## Examples
 
 #### 1. Basic Reconnaissance on a Domain
 Scan a target URL, find the endpoint, and start an interactive session.
@@ -140,7 +140,7 @@ Once in the shell, you can use these commands:
 *   `run query <QueryName>`: Start the interactive query builder to craft and execute a request.
 *   `exit`: Close the interactive session.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/CYBWithFlourish/GraphQLNomad/issues).
 
@@ -150,7 +150,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 4.  **Push** to the Branch (`git push origin feature/AmazingFeature`).
 5.  Open a **Pull Request**.
 
-## 📜 License
+## License
 
 This project is licensed under the **Apache 2.0 License**. See the [LICENSE](https://github.com/CYBWithFlourish/GraphqlNomad/blob/main/LICENSE) file for more details.
 
