@@ -17,7 +17,7 @@
 <div align="center">
 
 [![PyPI Version](https://img.shields.io/pypi/v/graphqlnomad.svg)](https://pypi.org/project/graphqlnomad/)
-[![Build Status](https://github.com/CYBWithFlourish/GraphQLNomad/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/YOUR_USERNAME/GraphQLNomad/actions/workflows/ci-workflow.yml)
+[![Build Status](https://github.com/CYBWithFlourish/GraphQLNomad/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/CYBWithFlourish/GraphQLNomad/actions/workflows/ci-workflow.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/pypi/pyversions/graphqlnomad.svg)](https://pypi.org/project/graphqlnomad/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
