@@ -24,7 +24,9 @@
 
 </div>
 
-**GraphQLNomad** is a powerful all-in-one command-line tool designed for security researchers, penetration testers, bug bounty hunters, and developers. It automates the entire GraphQL reconnaissance workflow - from discovering hidden endpoints to fingerprinting the underlying engine and exploring schemas through an intuitive interactive shell.
+**GraphQLNomad** is a powerful all-in-one command-line tool designed for security researchers, penetration testers, bug bounty hunters, and developers. 
+
+It automates the entire GraphQL reconnaissance workflow - from discovering hidden endpoints to fingerprinting the underlying engine and exploring schemas through an intuitive interactive shell.
 
 ## ✨ Key Features
 
@@ -36,10 +38,10 @@
 ### 🔬 Engine Fingerprinting
 *   **Technology Identification**: Automatically identifies the underlying GraphQL engine and its technology stack
 *   **Supported Engines**: 
-  - **Apollo Server** (Node.js, JavaScript)
-  - **Graphene** (Python, Django, Flask)
-  - **Hot Chocolate** (.NET, C#)
-  - **Hasura** (Go, Haskell)
+    - **Apollo Server** (Node.js, JavaScript)
+    - **Graphene** (Python, Django, Flask)
+    - **Hot Chocolate** (.NET, C#)
+    - **Hasura** (Go, Haskell)
 *   **Behavioral Analysis**: Uses multiple fingerprinting techniques including error signatures, headers, and response patterns
 
 ### 📊 Schema Introspection
@@ -263,6 +265,7 @@ Example wordlist format:
 View all GraphQL engines that can be fingerprinted:
 
 ```bash
+# Note: A URL is required but can be any placeholder when using --list-engines
 graphqlnomad --list-engines https://example.com
 ```
 
