@@ -1,9 +1,9 @@
 {
   "name": "graphqlnomad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An integrated tool to detect, fingerprint, and explore GraphQL endpoints.",
   "license": "Apache-2.0",
-  "author": "CYBWithFlourish <project.samclak@gmail.com>",
+  "author": "CYBWithFlourish <project.samclak@gmail. com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CYBWithFlourish/GraphQLNomad.git"

@@ -10,7 +10,7 @@
  \______  /__|  (____  /   __/|___|  /\_____\ \_/_______  \____|__  /\____/|__|_|  (____  /\____ |
         \/           \/|__|        \/        \__>       \/       \/             \/     \/      \/
 ```
-**v1.0.0 - A comprehensive tool to discover, fingerprint, and explore GraphQL endpoints.**
+**v1.0.1 - A comprehensive tool to discover, fingerprint, and explore GraphQL endpoints.**
 
 </div>
 

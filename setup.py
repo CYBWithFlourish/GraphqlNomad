@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="graphqlnomad",
-    version="1.0.0",
+    version="1.0.1",  # ← UPDATE THIS
     author="CYBWithFlourish",
     license="Apache-2.0",
-    author_email="project.samclak@gmail.com",
+    author_email="project. samclak@gmail.com",
     description="An integrated tool to detect, fingerprint, and explore GraphQL endpoints.",
     long_description=long_description,
     long_description_content_type="text/markdown",
