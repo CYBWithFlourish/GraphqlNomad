@@ -85,3 +85,6 @@ package-lock.json
 
 # Optional npm cache directory
 .npm/
+
+# NPM configuration - user-specific, should not be committed
+.npmrc
